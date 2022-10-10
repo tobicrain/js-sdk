@@ -1,6 +1,6 @@
 {
     "version": "0.7.1",
-    "name": "pocketbase",
+    "name": "@tobicrain/pocketbase",
     "description": "PocketBase JavaScript SDK",
     "author": "Gani Georgiev",
     "license": "MIT",
@@ -9,11 +9,11 @@
         "url": "git://github.com/pocketbase/js-sdk.git"
     },
     "exports": {
-        ".": "./dist/pocketbase.es.mjs",
+        ".": "./dist/pocketbase.cjs.js",
         "./cjs": "./dist/pocketbase.cjs.js",
         "./umd": "./dist/pocketbase.umd.js"
     },
-    "main": "./dist/pocketbase.es.mjs",
+    "main": "./dist/pocketbase.cjs.js",
     "module": "./dist/pocketbase.es.mjs",
     "types": "./dist/pocketbase.es.d.mts",
     "keywords": [
