@@ -1,12 +1,16 @@
 {
     "version": "0.7.1",
     "name": "@tobicrain/pocketbase",
+    "private": false,
     "description": "PocketBase JavaScript SDK",
-    "author": "Gani Georgiev",
     "license": "MIT",
+    "homepage": "https://github.com/tobicrain/js-sdk#readme",
     "repository": {
         "type": "git",
-        "url": "git://github.com/pocketbase/js-sdk.git"
+        "url": "git+https://github.com/tobicrain/js-sdk.git"
+    },
+    "bugs": {
+        "url": "https://github.com/tobicrain/js-sdk/issues"
     },
     "exports": {
         ".": "./dist/pocketbase.cjs.js",
@@ -18,11 +22,15 @@
     "types": "./dist/pocketbase.es.d.mts",
     "keywords": [
         "pocketbase",
+        "pocketbase-react",
         "pocketbase-js",
         "js-sdk",
         "javascript-sdk",
         "pocketbase-sdk"
     ],
+    "publishConfig": {
+        "access": "public"
+    },
     "scripts": {
         "build": "rm -rf dist && rollup -c",
         "dev": "rollup -c -w",
