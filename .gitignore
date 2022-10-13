@@ -7,6 +7,6 @@
 #
 # @see https://github.com/npm/npm/issues/20603
 package-lock.json
-
+yarn.lock
 # generated markdown preview
 README.html
